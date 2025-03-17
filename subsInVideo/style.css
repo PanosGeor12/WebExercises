@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: darkgray;
 }
@@ -17,4 +18,25 @@ video {
     margin: auto;
     border-radius: 10px;
     border: 10px solid black;
+=======
+body {
+    background-color: darkgray;
+}
+
+div.video-container {
+    width: 50%;
+    margin: 150px auto;
+}
+
+@media (max-width: 800px) {
+    div.video-container {
+        width: 80%;
+    }
+}
+video {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid black;
+>>>>>>> d512dfa (initial commit)
 }

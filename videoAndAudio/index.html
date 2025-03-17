@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        video {
+            width: 50%; 
+            height: auto; 
+            float: left; 
+            padding: 1rem;
+        }
+        p {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="gif">
+        <a href="assets/seaVideo.mp4" download="seaVideo">
+            <img src="assets/seaVideo.gif" alt="">
+        </a>
+    </div>
+    <div class="video">
+        <video controls>
+            <source src="assets/seaVideo.wmv">
+            <source src="assets/seaVideo.mp4">
+            <p>Your browser can not support Video</p>
+        </video>
+        <p>Video by : <a href="https://www.pexels.com/video/waves-rushing-and-splashing-to-the-shore-1409899">Michal Marek</a></p>    
+    </div>
+    <div class="audio">
+        <audio src="assets/audio.mp3" controls preload="auto" autoplay loop>
+            <p>Ο browser σας δεν υποστηρίζει audio</p>
+        </audio>
+        <p>Music by <a href="https://pixabay.com/users/penguinmusic-24940186/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=303261">Oleksandr Stepanov</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=303261">Pixabay</a></p>
+    </div>
+
+    <div class="youtube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a65EkUjdKng?si=tQooiHh88cKRqZU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Για τον Μανώλη Αυτό</p>    
+    </div>
+</body>
+</html>
